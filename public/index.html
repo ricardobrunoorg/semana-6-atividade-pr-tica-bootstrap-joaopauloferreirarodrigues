@@ -1,12 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Getting Freak</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Seu CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<!-- HEADER -->
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid px-3">
+
+        <a class="navbar-brand" href="#">GETTING FREAK</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="menu" class="collapse navbar-collapse justify-content-end">
+
+            <form class="d-flex flex-column flex-lg-row me-lg-2">
+                <input class="form-control mb-2 mb-lg-0 me-lg-2" type="text" placeholder="Buscar...">
+                <button class="btn btn-outline-light">Buscar</button>
+            </form>
+
+            <button class="btn btn-light mt-2 mt-lg-0">Login</button>
+
+        </div>
+    </div>
+</nav>
+</header>
+
+<!-- MAIN -->
+<main class="container-fluid">
+    <div class="row">
+
+        <!-- SIDEBAR (some no mobile) -->
+        <nav class="d-none d-md-block col-md-3 col-lg-2 bg-dark text-white min-vh-100 p-3">
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Treinos</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Dietas</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Blog</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTEÚDO -->
+        <div class="col-12 col-md-9 col-lg-10 p-3 p-md-4">
+
+            <!-- Banner -->
+            <section class="mb-4">
+                <img src="https://picsum.photos/id/1059/900/250" class="img-fluid w-100">
+            </section>
+
+            <!-- TREINOS -->
+            <section class="mb-5">
+                <h2>Treinos Recomendados</h2>
+
+                <div class="row g-2">
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="custom-card">
+                            <img src="https://picsum.photos/id/845/300/200">
+                            <h5>Meu treino de Peito</h5>
+                            <p>Duração: 1h 12min • 88.000 visualizações</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="custom-card">
+                            <img src="https://picsum.photos/id/1077/300/200">
+                            <h5>Treino de Perna</h5>
+                            <p>Duração: 55min • 50.000 visualizações</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="custom-card">
+                            <img src="https://picsum.photos/id/841/300/200">
+                            <h5>Treino de Costas</h5>
+                            <p>Duração: 1h 30min • 73.000 visualizações</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CONTEÚDOS -->
+            <section class="mb-5">
+                <h2>Últimos Conteúdos</h2>
+
+                <div class="row g-2">
+
+                    <div class="col-12 col-sm-6">
+                        <div class="custom-card">
+                            <img src="https://picsum.photos/id/429/300/200">
+                            <h5>Como Emagrecer</h5>
+                            <p>10 dicas práticas</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6">
+                        <div class="custom-card">
+                            <img src="https://picsum.photos/id/292/300/200">
+                            <h5>Dieta para hipertrofia</h5>
+                            <p>Guia completo</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- WHATSAPP -->
+            <section class="bg-light p-4 text-center">
+                <h2>Entre no meu grupo de WhatsApp</h2>
+                <p>Receba dicas de treino, dieta e novidades!</p>
+
+                <form class="row g-2 justify-content-center">
+
+                    <div class="col-12 col-md-3">
+                        <input class="form-control" placeholder="Seu nome">
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <input class="form-control" placeholder="Seu número">
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <input class="form-control" placeholder="Seu e-mail">
+                    </div>
+
+                    <div class="col-12">
+                        <button class="btn btn-success">Entrar no grupo</button>
+                    </div>
+
+                </form>
+            </section>
+
+        </div>
+    </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3 mt-4">
+    © 2026 GETTING FREAK
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
