@@ -9,18 +9,20 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: João Paulo Ferreira Rodrigues
+- Matricula: 908448
+- Proposta de projeto escolhida: Proposta 5 - Site Bodybuilding/Fitness
+- Breve descrição sobre seu projeto: O site é voltado para compartilhar treinos, dietas e dicas de saúde, além de contar com um blog pessoal para dividir experiências e atualizações do dia a dia.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](desktop_1.jpg)
+![alt text](desktop_2.jpg)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![alt text](mobile_1.jpg)
+![alt text](mobile_2.jpg)
+![alt text](mobile_3.jpg)
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
